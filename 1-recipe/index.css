@@ -1,0 +1,84 @@
+body {
+	text-align: center;
+	letter-spacing: 0.1em;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-image: url("https://img1.doubanio.com/view/status/raw/public/91f883566f285b7.jpg");
+}
+.Heading {
+	margin: auto;
+	width: 1000px;
+	letter-spacing: 0.3em;
+	opacity: 0.6;
+	
+}
+
+/*main heading*/
+h1 {
+	text-align: center;
+	font-family: Rockwell, Verdana, Futura, 'Century Gothic', sans-serif;
+	font-size: 40pt;
+	font-weight: bold;
+	color : #FFFFFF;
+	background-color: #FF0000;
+}
+
+/*sub heading*/
+h2 {
+	font-family: 'Century Gothic', Futura, Verdana, sans-serif;
+	font-size: 30pt;
+	font-weight: bold;
+	color: #FFFFFF;	
+}
+h2.Recipe {
+	background-color: #02C874;
+}
+h2.Book {
+	background-color: #0080FF
+}
+h2.Contact {
+	background-color: #8F4586;
+}
+
+/*link*/
+a {
+	color: #007979;
+}
+ol, ul {
+	font-family: Verdana, serif;
+	font-size: 20pt;
+	margin: auto;
+	background-color: #FFFFFF;
+	width: 960px;
+	opacity: 0.9;
+}
+ol {
+	color: #007979;
+}
+ul {
+	line-height: 3em;
+	font-weight: bold;
+	color: #5151A2;
+}
+img.Pie{
+	height: 300px;
+	width: 300px;
+}
+p {
+	margin: auto;
+	font-family: 'Century Gothic', Verdana, sans-serif;
+	font-size: 20pt;
+	color: #6C3365;
+	background-color: #FFFFFF;
+	width: 1000px;
+	opacity: 0.9;
+}
+p.Instruction {
+	color: #FF8000;
+}
+p.recipe {
+	color: #007979;
+}
+p.book {
+	color: #5151A2;
+}

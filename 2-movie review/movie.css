@@ -1,0 +1,105 @@
+/* By Wu Linman*/
+
+body {
+	margin: 0px;
+	background-image: url("background.png");
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+#banner {
+	height: 50px;
+	background-size: auto 50px;
+	text-align: center;
+	background-image: url("bannerbackground.png");
+}
+h1 {
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+#content {
+	margin: auto;
+	width: 800px;
+	position: relative;
+	border: 4px gray solid;
+}
+#review {
+	width: 550px;
+}
+#rotten {
+	height: 83px;
+	background-image: url("rottenbackground.png");
+	background-size: auto 83px;
+
+}
+#red {
+	color: red;
+	font-size: 48pt;
+	font-weight: bold;
+	position: relative;
+	top: 6px;
+}
+#white {
+	color: white;
+	vertical-align: sub;
+}
+#left-column {
+	width: 47%;
+	float: left;
+	margin-right: 1%;
+	margin-left: 2%;
+}
+#right-column {
+	width: 47%;
+	float: right;
+	margin-left: 1%;
+	margin-right: 2%;
+}
+.comment {
+	font-weight: bold;
+	background-color: #E1D697;
+	border: 2px gray solid;
+	padding: 8px;
+}
+
+/* the icon in every box*/
+.icon {
+	float: left;
+	padding-right: 5px;
+}
+.writer {
+	margin-bottom: 3em;
+}
+.publication {
+	font-style: italic;
+}
+#special-box {
+	padding-bottom: 18px;
+}
+#sidebar {
+	width: 250px;
+	float: right;
+	text-align: left;
+	font-family: Arial, sans-serif;
+	background-color: #A2B964;
+}
+dl {
+	margin: 10px;
+}
+dt {
+	font-weight: bold;
+	margin-top: 1em;
+}
+#bottom-bar {
+	text-align: center;
+	clear: right;
+	background-color: #A2B964;
+	margin-bottom: 0px;
+	padding: 5px;
+}
+#link {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+}
