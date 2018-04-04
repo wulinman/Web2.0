@@ -1,0 +1,54 @@
+/*By Wu Linman*/
+
+body {
+	background-color: cadetblue;
+}
+p {
+	text-align: center;
+	color: white;
+	font-size: 30pt;
+	
+	font-weight: bold;
+	font-family: Meiryo, Arial, Georgia;
+}
+#calculate {
+	margin: auto;
+	border: 2px solid black;
+	height: 440px;
+	width: 400px;
+	border-radius: 10px;
+	background-color: white;
+}
+#output-box {
+	border: 2px solid grey;
+	height: 70px;
+	margin: 17px;
+}
+#output {
+	width: 359px;
+	height: 65px;
+	color: white;
+	font-size: 25pt;
+	text-align: right;
+	background-color: #3C3C3C;
+}
+#button-box {
+	float: left;
+	margin: 15px;
+}
+.button {
+	font-size: 13pt;
+	background-color: #E0E0E0;
+	opacity: 0.8;
+	width: 80px;
+	height: 50px;
+	margin: 3px;
+	border-radius: 6px;
+}
+#equal {
+	background-color: cadetblue;
+}
+button {
+	font-family: Meiryo, sans-serif;
+	font-weight: bold;
+}
