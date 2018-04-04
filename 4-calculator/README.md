@@ -18,7 +18,7 @@
 
    ​		1.（10分）如果，算术表达式非法，弹出警告框提醒用户，并终止计算
 
-![Calculator](E:\Study\GitHub\Web2.0\4-calculator\demo.png)
+![Calculator](https://github.com/wulinman/Web2.0/blob/master/4-calculator/demo.png?raw=true)
 
 
 
