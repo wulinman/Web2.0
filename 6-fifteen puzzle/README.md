@@ -17,7 +17,7 @@
 
 
 
-### 成果截图
+### 作业截图
 
 ![demo](https://github.com/wulinman/Web2.0/blob/master/6-fifteen%20puzzle/img/demo.png?raw=true)
 

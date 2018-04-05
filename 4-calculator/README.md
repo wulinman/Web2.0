@@ -32,6 +32,6 @@ JavaScript代码符合课程要求（5分）
 
 
 
-## Demo
+## 作业截图
 
 ![Calculator](https://github.com/wulinman/Web2.0/blob/master/4-calculator/demo.png?raw=true)
