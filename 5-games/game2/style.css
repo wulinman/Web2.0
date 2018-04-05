@@ -1,0 +1,79 @@
+body {
+	font-family: 'Century Gothic', Arial, serif;
+	text-align: center;
+	width: 1024px;
+	margin: auto;
+}
+h1 {
+	font-size: 30px;
+	font-weight: normal;
+}
+h2 {
+	font-size: 24px;
+	font-weight: normal;
+}
+#count-box {
+	position: relative;
+	width: 413px;
+	height: 50px;
+	margin: auto;
+}
+#start {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#Time {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#state {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 130px;
+	height: 20px;
+	border: 1px solid #E0E0E0;
+	border-radius: 5px 5px 5px 5px;
+}
+#Score {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+input {
+	background-color: white;
+}
+.time, .score{
+	display: inline-block;
+}
+#time-box, #score-box {
+	width: 41px;
+	height: 19px;
+	border: 1px solid #D0D0D0;
+	border-radius: 3px 3px 3px 3px;
+}
+#play-box {
+	width: 321px;
+	margin: auto;
+	margin-top: 34px;	
+}
+.mole {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: white;
+}
+#instruction {
+	font-family: Georgia, Garamond, serif;
+	text-align: left;
+	margin: auto;
+}
+span {
+	font-weight: bold;
+}
+.real-mole, .mole {
+	width: 20px;
+	height: 20px;
+}

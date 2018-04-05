@@ -1,0 +1,120 @@
+body {
+	font-family: 'Century Gothic', Arial, serif;
+	text-align: center;
+}
+#page {
+	margin: auto;
+	width: 1024px;
+}
+h1 {
+	font-weight: normal;
+	font-size: 25pt;
+}
+h2 {
+	font-weight: normal;
+}
+p {
+	text-align: left;
+}
+#result {
+	height: 30px;
+	margin: 20px;
+	opacity: 1;
+	transition: opacity 1s;
+}
+#maze {
+	position: relative;
+	margin: auto;
+	height: 300px;
+	width: 500px;
+}
+#maze:hover {
+	cursor: pointer;
+}
+.wall {
+	background-color: #E0E0E0;
+}
+.wall:hover {
+	cursor: default;
+}
+.red-wall {
+	background-color: red;
+}
+.red-wall {
+	cursor: default;
+}
+#top-left, #top-right {
+	width: 152px;
+    height: 197px;
+    border: 1px solid black;
+}
+#top-left {
+	position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#top-mid {
+	position: absolute;
+	top: 0px;
+	left: 153px;
+	width: 194px;
+	height: 50px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	z-index: 1;
+}
+#top-right {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 0;
+}
+#bottom {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 50px;
+	border: 1px solid black; 
+}
+#bottom-mid {
+	position: absolute;
+	bottom: 51px;
+	left: 201px;
+	width: 99px;
+	height: 147px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	z-index: 0;
+}
+#start, #end {
+	width: 43px;
+	height: 43px;
+	border: 1px solid black;
+	font-size: 25pt;
+	font-weight: bold;
+}
+#start {
+	position: absolute;
+	left: 0px;
+	bottom: 54px;
+	background-color: rgb(126,254,133);
+}
+#end {
+	position: absolute;
+	right: 0px;
+	bottom: 54px;
+	background-color: rgb(134,132,255);
+}
+#under-maze {
+	width: 610px;
+	margin: auto;
+}
+#little-wall {
+	width: 99px;
+	height: 20px;
+	margin: auto;
+	background-color: #E0E0E0;
+	border: 1px solid black;
+}
