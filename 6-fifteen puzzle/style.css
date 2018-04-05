@@ -1,0 +1,130 @@
+body {
+	font-family: 'Century Gothic', Arial, sans-serif;
+	background-color: #5CADAD;
+}
+#info {
+	font-size: 40pt;
+	text-align: center;
+}
+#game {
+	width: 650px;
+	height: 600px;
+	margin: auto;
+	background-color: #F0F0F0;
+	border-radius: 10px;
+}
+#result {
+	width: 500px;
+	height: 80px;
+	margin: auto;
+	color: #FF7575;
+	font-size: 25pt;
+}
+#play-box {
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	position: relative;
+}
+.puzzle {
+	position: absolute;
+	width: 98px;
+	height: 98px;
+	border-radius: 5px;
+	margin-right: 0px;
+	background-image: url("img/panda3.png");
+	background-size: 400px 400px;
+
+	box-shadow: 0.8px 0.8px 5px #BEBEBE;
+	-o-box-shadow: 0.8px 0.8px 5px #BEBEBE;
+	-moz-box-shadow: 0.8px 0.8px 5px #BEBEBE;
+	-webkit-box-shadow: 0.8px 0.8px 5px #BEBEBE;
+
+	transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+.puzzle:hover {
+	transform: scale(1.05,1.05);
+	-o-transform: scale(1.05,1.05);
+	-moz-transform: scale(1.05,1.05);
+	-webkit-transform: scale(1.05,1.05);  
+}
+
+/*拼图定位*/
+.row-0 {top: 0;}
+.row-1 {top:100px;}
+.row-2 {top: 200px;}
+.row-3 {top: 300px;}
+.col-0 {left: 0;}
+.col-1 {left: 100px;}
+.col-2 {left: 200px;}
+.col-3 {left: 300px;}
+
+/*设置背景图片位置*/
+#puzzle-1 {background-position: 0% 0%;}
+#puzzle-2 {background-position: 33.3% 0%;}
+#puzzle-3 {background-position: 66.6% 0;}
+#puzzle-4 {background-position: 100% 0;}
+#puzzle-5 {background-position: 0 33.3%;}
+#puzzle-6 {background-position: 33.3% 33.3%;}
+#puzzle-7 {background-position: 66.6% 33.3%;}
+#puzzle-8 {background-position: 100% 33.3%;}
+#puzzle-9 {background-position: 0 66.6%;}
+#puzzle-10 {background-position: 33.3% 66.6%;}
+#puzzle-11 {background-position: 66.6% 66.6%;}
+#puzzle-12 {background-position: 100% 66.6%;}
+#puzzle-13 {background-position: 0 100%;}
+#puzzle-14 {background-position: 33.3% 100%;}
+#puzzle-15 {background-position: 66.6% 100%;}
+#puzzle-16 {display: none;}
+
+#button-box {
+	position: absolute;
+	top: 30%;
+	width: 120px;
+	height: 300px;
+}
+.button {
+	width: 70px;
+	height: 30px;
+	border-radius: 5px;
+	margin: 5px;
+	color: white;
+	font-family: 'Century Gothic', sans-serif;
+
+	box-shadow: 0.8px 0.8px 5px #BEBEBE;
+	-o-box-shadow: 0.8px 0.8px 5px #BEBEBE;
+	-moz-box-shadow: 0.8px 0.8px 5px #BEBEBE;
+	-webkit-box-shadow: 0.8px 0.8px 5px #BEBEBE;	
+	transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.button:hover {
+	transform: scale(1.05,1.05);
+	-o-transform: scale(1.05,1.05);
+	-moz-transform: scale(1.05,1.05);
+	-webkit-transform: scale(1.05,1.05);
+}
+#start {
+	background-color: #0072E3;
+}
+#recover {
+	background-color: #7373B9;
+}
+#level {
+	height: 50px;
+	background-color: #5CADAD;
+}
+#origin {
+	width: 110px;
+	height: 110px;
+	border: 1px solid #5CADAD;
+	margin: 5px;
+	background-image: url("img/panda3.png");
+	background-size: 110px 110px;
+	border-radius: 10px;
+}
