@@ -1,0 +1,3 @@
+$('table').children('thead').find('tr th').each(function () {$(this).click(function () {var index = $('table').children('thead').find('tr th').index($(this));a = $('table' + ' tbody').children().sort(function (a, b) {return a.children[index].text().localeCompare(b.children[index].text());});$('table').children('tbody').empty().append(a);});});
+
+ø…”√Õ¯’æ£∫http://soj.sysu.edu.cn/problem_list.php

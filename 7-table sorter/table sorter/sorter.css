@@ -1,0 +1,29 @@
+body {
+	font-family: 'Bell MT', Arial ,sans-serif;
+}
+
+thead {
+	background-color: #00007C;
+	color: white;
+}
+table {
+	font-family: Arial ,sans-serif;
+	border: 1px solid grey;
+	border-collapse: collapse;
+}
+thead {
+	text-align: left;
+}
+th, td {
+	padding: 4px;
+	border: 1px solid grey;
+}
+.alternate {
+	background-color: #DDDDDD;
+}
+.choose {
+	background-color: #A6AFFC;
+}
+.scend {
+	float: right;
+}
