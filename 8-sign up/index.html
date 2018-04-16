@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<div id="container">
+		<h2>用户注册</h2>
+		<form id="register" action="http://localhost:8080/" method="post">
+			
+			<div id = "input-box">
+				<label>用户名：<input id="username" name = "username" id = "username" type="text">
+				<p>用户名6~18位英文字母、数字或下划线，必须以英文字母开头</p>
+				</label>
+				<label>学号：<input id="studentId" name = "studentId" type="text">
+				<p>学号8位数字，不能以0开头</p>
+				</label>
+				<label>电话：<input id="phone" name = "phone" type="text">
+				<p>电话11位数字，不能以0开头</p>
+				</label>
+				<label>邮箱：<input id="email" name = "email" type="text">
+				<p>邮箱不合法</p>
+				</label>
+			</div>
+			<div id="warning">warningInfo</div>
+			<div id="button">
+				<button type="reset" id="reset">Reset</button>
+				<button type="submit">Submit</button>
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>

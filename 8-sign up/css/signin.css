@@ -1,0 +1,16 @@
+body {
+	background-color: #5CADAD;
+}
+#container {
+	width:500px;
+	height: 450PX;
+	margin: auto;
+	text-align: center;
+	font-family: '微软雅黑';
+	border-radius: 10px;
+	border: 2px solid gray;
+	background-color: #F0F0F0;
+}
+.detail {
+	color: #0080FF;
+}
